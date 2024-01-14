@@ -6,6 +6,7 @@
     --clr-orange: #FEA407;
     --clr-green: #4F552F;
     --clr-white: #ffffff;
+    --clr-light-blue:#225779;
 }
 
 body{
@@ -52,4 +53,69 @@ body{
 .header .navigation .navigation-li{
     font-weight: bolder;
     color: var(--clr-darkpurple);
+}
+
+
+/*main*/
+
+/*homepage*/
+.homePage .thumbnail-section{
+    width: 100%;
+    overflow: hidden;
+    height: 600px;
+}
+
+.homePage .thumbnail-section .thumbnail{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.homePage .homepage-h2{
+    text-align: center;
+    padding-top:12px;
+    font-weight: bold;
+    font-size: 28px;
+    color: var(--clr-darkpurple);
+    
+}
+
+.homePage .homepage-grid{
+    display: grid;
+    padding: 16px 16px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.homepage-grid .homepage-grid-li .homepage-grid-title-section{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    color: var(--clr-darkpurple);
+    text-align: center;
+    
+}
+
+.homepage-grid-li .homepage-grid-title-section .homepage-li-iconContainer{
+    padding-top: 6px;
+}
+
+.homepage-grid-li .homepage-grid-title-section .homepage-titles{
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--clr-light-blue)
+}
+
+.homepage-grid-li .homepage-li-divider{
+    height: 0.5px;
+    font-weight: lighter;
+    margin: 4px 0px;
+    background-color: var(--clr-darkpurple);
+}
+
+.homepage-grid-li .homepage-li-content{
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 4%;
+    line-height: 26px;
 }
