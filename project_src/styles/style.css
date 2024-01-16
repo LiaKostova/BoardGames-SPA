@@ -215,3 +215,59 @@ main .card-section{
 .ranking-ul .ranking-li-title .ranking-row{
     padding: 14px;
 }
+
+
+/* login */
+
+.login{
+    position:relative;
+    height: 40vh;
+}
+
+.login .login-title{
+    font-size: 22px;
+    color: var(--clr-darkpurple);
+    padding: 4px 0px;
+}
+
+.login .login-form{
+    font-size: 18px;
+    border-radius: 4px;
+    padding-bottom: 12px;
+}
+
+.profile-button{
+    font-size: 18px;
+    background-color: var(--clr-light-blue);
+    color: var(--clr-grey);
+    border: 1px solid var(--clr-darkpurple);
+    border-radius: 4px;
+}
+
+.form-message{
+    font-size: 18px;
+    
+}
+
+/* register */
+.register{
+    position:relative;
+    height: 40vh;
+}
+
+.register .register-title{
+    font-size: 22px;
+    color: var(--clr-darkpurple);
+    padding: 4px 0px;
+}
+
+.register .register-form{
+    font-size: 18px;
+    border-radius: 4px;
+    padding-bottom: 12px;
+}
+
+
+
+
+
