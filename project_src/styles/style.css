@@ -201,14 +201,17 @@ main .card-section{
     height: 80vh;
 }
 
-.ranking .ranking-section .ranking-table{
-    border-collapse: collapse;
-    color: var(--clr-darkpurple);
-    text-align: left;
-    border-collapse: collapse;
-    border-spacing: 20px;    
+.ranking-ul{
+    display: grid;
+    grid-template-columns: 6% 60%;
+    font-size: 18px;
 }
 
-.ranking .ranking-section .ranking-table .table-number{
-    text-align: center;
+.ranking-ul .ranking-li-title{
+    font-size: 22px;
+    color: var(--clr-darkpurple);
+}
+
+.ranking-ul .ranking-li-title .ranking-row{
+    padding: 14px;
 }
