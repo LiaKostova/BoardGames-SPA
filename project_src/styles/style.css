@@ -223,18 +223,31 @@ main .card-section{
 .login{
     position:relative;
     height: 40vh;
+    margin: 48px;
+}
+
+.login .login-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .login .login-title{
     font-size: 22px;
     color: var(--clr-darkpurple);
-    padding: 4px 0px;
+    padding: 4px 0px 14px 0px;
+
 }
 
 .login .login-form{
     font-size: 18px;
     border-radius: 4px;
     padding-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 14px;
 }
 
 .profile-button{
@@ -254,18 +267,53 @@ main .card-section{
 .register{
     position:relative;
     height: 40vh;
+    margin: 48px;
 }
 
-.register .register-title{
+.register .register-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.register-section .register-title{
     font-size: 22px;
     color: var(--clr-darkpurple);
-    padding: 4px 0px;
+    padding: 4px 0px 14px 0px;
+
 }
 
-.register .register-form{
+.register-section .register-form{
     font-size: 18px;
     border-radius: 4px;
-    padding-bottom: 12px;
+    padding-bottom: 14px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 12px;
+}
+
+
+
+
+/*contacts*/
+.contacts{
+    position:relative;
+    height: 40vh;
+    margin: 48px;
+}
+
+.contacts .contacts-ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:12px;    
+}
+
+.contacts .contacts-ul .contacts-li{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--clr-darkpurple);
 }
 
 /* footer */
